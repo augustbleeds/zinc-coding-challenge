@@ -4,7 +4,8 @@ Backend: Node.js
 Front-end: jQuery, bootstrap
 Testing: Mocha, Chai, Sinon, Nock
 
-Takes an XML file that adheres to DTD "play.dtd" and counts the number of speakers.
+Takes an XML file that adheres to DTD "play.dtd" and counts the number of speakers. Works for
+any of the Shakespearian plays on http://www.ibiblio.org/xml/examples/shakespeare/ 
 
 I created two main classes, Poet and CountManager which are the scraper object and data store object
 respectively. Separating data from application logic makes the store object swappable and
