@@ -3,7 +3,7 @@ $(document).ready( function() {
     var link = $('#link').val()
     console.log('clicked ',link);
     $.ajax({
-      url: `http://localhost:3000/api?link=${link}`,
+      url: `https://shakespeare-count.herokuapp.com/api?link=${link}`,
       method: 'GET'
     })
       .then((resp) => {
